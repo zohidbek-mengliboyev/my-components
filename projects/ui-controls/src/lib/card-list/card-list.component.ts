@@ -8,12 +8,16 @@ import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
   styleUrls: ['./card-list.component.css']
 })
 export class CardListComponent implements OnInit {
+
   @Input() cards: Card[] = [];
   @Output() cardChange = new EventEmitter<Card[]>();
+
   constructor() {}
+
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+
   }
+
   sortCards(event: CdkDragDrop<string[]>): void {
     moveItemInArray(this.cards, event.previousIndex,
       event.currentIndex);
