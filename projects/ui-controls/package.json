@@ -1,6 +1,6 @@
 {
-  "name": "ui-controls",
-  "version": "0.0.0",
+  "name": "@uzrivojcoder/ui-controls",
+  "version": "1.0.0",
   "peerDependencies": {
     "@angular/common": "^15.2.2",
     "@angular/core": "^15.2.2",
