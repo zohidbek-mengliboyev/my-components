@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { UiControlsComponent } from './ui-controls.component';
 import { CardListComponent } from './card-list/card-list.component';
-
+import { CommonModule } from '@angular/common';
 
 
 @NgModule({
@@ -9,8 +9,7 @@ import { CardListComponent } from './card-list/card-list.component';
     UiControlsComponent,
     CardListComponent
   ],
-  imports: [
-  ],
+  imports: [CommonModule],
   exports: [
     UiControlsComponent,
     CardListComponent

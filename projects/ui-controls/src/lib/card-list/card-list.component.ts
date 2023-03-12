@@ -1,10 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Card } from '../card';
 
 @Component({
   selector: 'lib-card-list',
   templateUrl: './card-list.component.html',
   styleUrls: ['./card-list.component.css']
 })
-export class CardListComponent {
+export class CardListComponent implements OnInit {
+  @Input() cards: Card[] = [];
+
+  constructor() {}
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
 
 }
