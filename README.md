@@ -1,4 +1,7 @@
-# MyComponents
+# MyComponents -> UI Library Components
+
+![image](https://user-images.githubusercontent.com/61344271/224570958-5c16d842-11c3-471a-b8e8-75638e1f67d6.png)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
 
